@@ -41,10 +41,11 @@ The GEHU LBMS frontend is designed to offer a modern and intuitive user interfac
 
 ## 📁 Project Structure
 
--gehu-lbms-frontend/
-  ├── index.html
-  ├── css/
-  │ └── style.css
-  ├── images/
-  │ └── background.jpg
-  └── README.md
+LBMS/
+├── index.html               # Main homepage (Welcome screen)
+├── style.css                # Styling for the frontend
+├── images/
+│   └── all images           # All image (GEHU campus)
+├── student-login.html       # Student login page (planned)
+├── registration.html        # Student registration page (planned)
+└── README.md   
