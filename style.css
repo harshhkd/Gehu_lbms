@@ -1,0 +1,263 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*main code*/ 
+.wrapper
+{
+    height: 760px;
+    width: 1350px;
+/*    background-color: red;*/
+
+}
+
+header
+{
+
+    height: 160px;
+    width: 1520px;
+    background-color: black;
+
+}
+section
+{
+    height: 585px;
+    width: 1520px;
+    background-color: grey;
+}
+footer
+{
+    height: 150px;
+    width: 1520px;
+    background-color: black;
+}
+.logo{
+    float: left;
+    padding: 20px;
+    height: 100px;
+    width: auto;
+    padding-bottom: 0px;
+
+}
+.name{
+/*    float: left;*/
+    color: white;
+    padding-top: 130px;
+    padding-left: 20px;
+    position: absolute;
+
+}
+li a{
+    color: white;
+    text-decoration: null;
+}
+/*nav{
+    float: right;
+    word-spacing: 30px;
+    padding: 20px ;
+}
+nav li{
+    display: inline-block;
+    line-height: 80px;
+}*/
+section .sec-image
+{
+/*    margin-top: 0px;*/
+   height: 585px;
+    background-image: url("images/gehu.jpg");
+}
+
+.box
+{
+    height: 400px;
+    width: 650px;
+    background-color: #000000cf;
+    margin: 70px auto;
+    opacity: .6;
+    color: white;
+}
+
+
+/*_________________________student login_________________________*/
+
+
+.log_img{
+
+     height: 650px;
+    background-image: url("images/gehu3.jpg");
+}
+.box1
+{ 
+
+    height: 450px;
+    width: 650px;
+    background-color: #000000cf;
+    margin: 70px auto;
+    opacity: .6;
+    margin-top: 0px;
+    color: white;
+}
+
+form .login{
+    margin: auto 150px;
+}
+input{
+
+    height: 25px;
+    width: 300px;
+}
+
+/*_________________________registation login_________________________*/
+
+.reg_img{
+
+    
+     height: 650px;
+    background-image: url("images/gehu2.jpg");
+}
+.box2
+{ 
+
+    height: 550px;
+    width: 650px;
+    background-color: #000000cf;
+    margin: 60px auto;
+    opacity: .6;
+    margin-top: 0px;
+    color: white;
+}
+form .registation{
+    margin: auto 100px;
+}
+input{
+/*    margin-left: 70px;*/
+    height: 25px;
+    width: 300px;
+}
+
+/*-------------------link----------------------------*/
+a:link {
+  /*link sara link kai color, style, decoration
+  change kar degai*/
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  /*jo link mai hum ak bar click kar denagai
+  unkai color change ho jaygai isliye vistied use karta 
+  hai*/
+  color: #1098ad;
+}
+a:hover {
+  /*jab hum cursor ko link kai upper laka jayngai
+  tho jo vhi change hogai link mai vo **hover pseudo** ki 
+  vaja sai hogai*/
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  /*jab hum link mai click karngai tho jo link 
+  mai change hogai bo **active pseudo tag** ki
+   baja sai hogai */
+  background-color: black;
+  font-style: italic;
