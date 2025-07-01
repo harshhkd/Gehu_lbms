@@ -37,9 +37,6 @@ The GEHU LBMS frontend is designed to offer a modern and intuitive user interfac
 
 ![Screenshot 2025-07-01 155223](https://github.com/user-attachments/assets/66f17165-482b-44b2-8859-df56dc2da00f)
 
-
-> Replace `path-to-your-uploaded-screenshot` with the actual GitHub-hosted image path once uploaded.
-
 ---
 
 ## 📁 Project Structure
